@@ -3,15 +3,15 @@
   "resolveSourceMapLocations": ["${workspaceFolder}/**", "!**/node_modules/**"],
   "configurations": [
     {
-      "name": "Serve - Shop",
+      "name": "Serve - Demo",
       "type": "node",
       "request": "launch",
       "runtimeExecutable": "yarn",
-      "runtimeArgs": ["nx", "serve", "shop"],
+      "runtimeArgs": ["nx", "serve", "demo"],
       "outputCapture": "std",
       "internalConsoleOptions": "openOnSessionStart",
       "console": "internalConsole",
-      "cwd": "${workspaceFolder}/apps/shop/"
+      "cwd": "${workspaceFolder}/apps/demo/"
     }
   ]
 }
