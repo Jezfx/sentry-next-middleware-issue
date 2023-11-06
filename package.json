@@ -49,6 +49,7 @@
     "@nrwl/workspace": "15.1.1",
     "@prismicio/types": "^0.2.3",
     "@sentry/integrations": "^7.13.0",
+    "husky": "^8.0.3",
     "@sentry/nextjs": "^7.77.0",
     "dotenv": "^16.0.0",
     "eslint": "8.15.0",
